@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 #head {
     height: 10vh;
     display: flex;
@@ -12,28 +13,36 @@ body {
     justify-content: center;
 }
 
+.footer-text {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 8vh;
+    padding-left: 10px;
+}
+
 #footer {
     color: grey;
+    background-color: rgba(128, 128, 128, 0.116);
     height: 20vh;
 }
 
 .head-c {
+    margin-left: 10px;
     margin-top: 0.5em;
     width: 50vw;
     height: 10vh;
     display: flex;
 }
 
-
-
 #head-der {
+    margin-right: 5px;
     text-align: end;
     text-align: right;
     justify-content: flex-end;
     align-items: flex-start;
-
 }
-
 
 #main-info {
     width: 50vw;
@@ -45,35 +54,42 @@ body {
 }
 
 #footer-link {
+    border-top: 0.3px solid rgba(128, 128, 128, 0.534);
     display: flex;
-    color: grey;
     display: flex;
+    flex-direction: row;
 }
 
 #footer-link-izq {
     align-items: flex-end;
+    margin-left: 10px;
+    display: flex;
 }
 
 #footer-link-mid {
-    justify-content: center;
     align-items: flex-end;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-link-der {
-    justify-content: end;
     align-items: flex-end;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
 }
 
 #google {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
 }
 
 #input {
-    height:25px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    height: 25px;
     border-radius: 1em;
     margin-top: 2em;
-    width: 40vw;
+    width: 50vw;
 }
 
 #main-btns {
@@ -81,15 +97,17 @@ body {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
+    font-size: 13px;
 }
 
 #main-bottom {
-    margin-top: 1em;
-}
-
-.footer-div {
     display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 12px;
+    margin-top: 1em;
 }
 
 p {
@@ -101,18 +119,19 @@ p {
     text-align: unset;
     width: 50vw;
     height: 10vh;
+    display: flex;
 }
 
 span {
     float: left;
 }
 
-#span-g1{
+#span-g1 {
     color: rgb(11, 113, 230);
 }
 
 #span-o1 {
-    color: red ;
+    color: red;
 }
 
 #span-o2 {
@@ -121,4 +140,29 @@ span {
 
 #span-l {
     color: green;
+}
+
+#btn-sup {
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(28, 137, 226);
+}
+
+.a-grey {
+    color: grey;
+}
+
+.main-btn {
+    margin-right: 6px;
+    width: 10em;
+    color: rgba(0, 0, 0, 0.678);
+    padding: 7px;
+    border: 0px;
+    background-color: rgba(200, 209, 209, 0.192);
+}
+
+img {
+    margin: 3px 20px 3px 15px;
+    width: 15px;
+    height: 18px;
 }
