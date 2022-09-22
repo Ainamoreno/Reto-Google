@@ -28,6 +28,10 @@ body {
     height: 20vh;
 }
 
+.a-ng {
+    color: black;
+}
+
 .head-c {
     margin-left: 10px;
     margin-top: 0.5em;
@@ -80,13 +84,13 @@ body {
 }
 
 #google {
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
 }
 
 #input {
     border: 1px solid rgba(128, 128, 128, 0.404);
-    height: 25px;
+    height: 30px;
     border-radius: 1em;
     margin-top: 2em;
     width: 50vw;
@@ -165,4 +169,11 @@ img {
     margin: 3px 20px 3px 15px;
     width: 15px;
     height: 18px;
+}
+
+.img-hoja {
+    margin-bottom: 0px;
+    margin-right: 5px;
+    width: 9px;
+    height: 11px;
 }
