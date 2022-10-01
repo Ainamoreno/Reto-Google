@@ -7,6 +7,7 @@
 Reto que nos proponen para replicar la pantalla de Google con CSS
 
 ####  <div id="imagenes" > Imágenes
+
 Imagen de plantilla:
 ![image](https://user-images.githubusercontent.com/110055279/191790939-3aec3e3d-d326-40de-8d32-dcbfc0c131e0.png)
 
